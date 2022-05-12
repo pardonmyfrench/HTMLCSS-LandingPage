@@ -44,13 +44,12 @@ section {
     line-height: 1.4;
 }
 
-.btn-default, 
-.btn-primary {
-    color: white;
-}
+
 .btn-default{
+    color: #ffffff;
     background-color: #faa541;
 }
-.btn-primary{
+.btn-primary{    
+    color: #ffffff;
     background-color: #364147;
 }
