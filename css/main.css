@@ -20,8 +20,8 @@ section {
     display: flex;
 }
 .flex-column {
-    flex-direction: column
-    ;}
+    flex-direction: column;
+}
 .flex-one {
     flex: 1;
 }
@@ -93,7 +93,7 @@ section {
     width: 330px;
     height: 30px;
     padding: 6px 12px;
-    border: solid 1px #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 .search-button{
     background-color: #a0a0a0;
@@ -139,28 +139,28 @@ section {
 
 /*Heroe Sales Banners and Categories*/
 
-.hero{
-    background-image: url('/img/hero.jpg');
+.hero {
+    background-image: url('../img/hero.jpg');
     height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     text-transform: uppercase;
 }
 
-.hero h1{
+.hero h1 {
     position: relative;
     left: -30px;
 }
-.hero h2{
+.hero h2 {
     color: #faa541;
 }
 
-.hero h1, .hero h2{
+.hero h1, .hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
 }
-.hero p{
+.hero p {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
