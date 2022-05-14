@@ -233,6 +233,7 @@ section {
     bottom: 30px;
     left: 50px;
     right: 50px;
+    z-index: 1;
 }
 .full-banner-image {
     flex: 0 0 58.333333%;
